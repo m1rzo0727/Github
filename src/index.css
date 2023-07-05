@@ -19,7 +19,10 @@
   src: url("./Fonts/space-mono-v13-latin-700.woff2") format("woff2");
 }
 
+
+
 :root {
+ 
 }
 
 *,
@@ -39,7 +42,8 @@ body,
 }
 
 html {
-  background: #141d2f;
+  /* background: var(--body-color); */
+  background: #f6f8ff;
 }
 
 body {
@@ -110,15 +114,13 @@ a {
   text-transform: uppercase;
 }
 
-.mode-input {
-  display: none;
-}
+
 
 .search-content {
   width: 100%;
   height: 69px;
   max-width: 800px;
-  background: #1e2a47;
+  /* background: var(--body-color); */
   border-radius: 15px;
   padding: 0 10px 0 30px;
 
@@ -211,7 +213,6 @@ a {
   line-height: 22px;
   letter-spacing: 0px;
   margin-top: 20px;
-  color: #fff;
 }
 
 .main-main {
